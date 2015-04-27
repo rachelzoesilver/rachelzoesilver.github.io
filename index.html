@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href="http://fonts.googleapis.com/css?family=Fredericka+the+Great|Limelight|AlegreyaWaiting+for+the+Sunrise|Indie+Flower|Open+Sans+Condensed:300|Amatic+SC|Gruppo" rel="stylesheet" type="text/css"/>
+  		<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+  		<script src="assets/javascripts/jquery-1.9.1.js">
+  		</script>
+  		<script src="assets/javascripts/scripts.js" type="text/javascript">
+  		</script>
+  		<meta charset="utf-8"/>
+  		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+		<nav>
+			<div class="whole-nav">
+			</div>
+			<img id="question" src="assets/image/question.png"/>
+			<ul hor-nav="">
+				<li class="navitem">F<img src="assets/image/cupcake.png"/><img src="assets/image/cupcake.png"/>DIES!</li>
+     			<li class="navitem0"><input placeholder="SEARCH" type="text"/></li>
+				<li class="navitem1" id="black1">Cuisine
+					<ul class="dropdown">
+						<li class="scroll">
+							<label>
+								<input id="Real-Mexican" name="Real-Mexican" class="mycheckbox" type="checkbox"/> Real Mexican</label>
+						</li>
+
+						<li class="scroll">
+							<label>
+								<input id="Fusion" name="Fusion" class="mycheckbox" type="checkbox"/> Fusion</label>
+						</li>
+
+						<li class="scroll">
+							<label>
+								<input id="Italian" name="Italian" class="mycheckbox" type="checkbox"/> Italian</label>
+						</li>
+
+						<li class="scroll">
+							<label>
+								<input id="Steakhouse" name="Steakhouse" class="mycheckbox" type="checkbox"/> Steakhouse</label>
+						</li>
+
+						<li class="scroll">
+							<label>
+								<input id="American" name="American" class="mycheckbox" type="checkbox"/> American
+							</label>
+						</li>
+
+       					<li class="scroll">
+							<label>
+								<input id="Japanese" name="Japanese" class="mycheckbox" type="checkbox"/> Japanese</label>
+						</li>
+
+						<li class="scroll">
+							<label>
+								<input id="Chinese" name="Chinese" class="mycheckbox" type="checkbox"/> Chinese</label>
+						</li>
+      				</ul>
+     			</li>
+
+     			<li class="navitem1" id="black2">Location
+					<ul class="dropdown">
+						<li class="scroll">
+							<label>
+								<input id="Real-Mexican" name="Real-Mexican" class="mycheckbox" type="checkbox"/> Mexico</label>
+						</li>
+
+						<li class="scroll">
+							<label>
+								<input id="Fusion" name="Fusion" class="mycheckbox" type="checkbox"/> British Columbia
+							</label>
+						</li>
+
+						<li class="scroll">
+							<label>
+								<input id="Italian" name="Italian" class="mycheckbox" type="checkbox"/> Italy
+							</label>
+						</li>
+
+       <li class="scroll">
+        <label>
+         <input id="Steakhouse" name="Steakhouse" class="mycheckbox" type="checkbox"/>
+         Las Vegas
+        </label>
+       </li>
+
+       <li class="scroll">
+        <label>
+         <input id="American" name="American" class="mycheckbox" type="checkbox"/>
+         Denmark
+        </label>
+       </li>
+
+       <li class="scroll">
+        <label>
+         <input id="Japanese" name="Japanese" class="mycheckbox" type="checkbox"/>
+         Japan
+        </label>
+       </li>
+
+       <li class="scroll">
+        <label>
+         <input id="Japanese" name="Japanese" class="mycheckbox" type="checkbox"/>
+         California
+        </label>
+       </li>
+
+       <li class="scroll">
+        <label>
+         <input id="Chinese" name="Chinese" class="mycheckbox" type="checkbox"/>
+         China
+        </label>
+       </li>
+      </ul>
+     </li>
+
+     <li class="navitem1" id="black3">
+       Price Range
+      <ul class="dropdown">
+       <li class="scroll">
+        <label>
+         <input id="Chinese" name="Chinese" class="mycheckbox" type="checkbox"/>
+         $
+        </label>
+       </li>
+       <li class="scroll">
+        <label>
+         <input id="Fusion" name="Fusion" class="mycheckbox" type="checkbox"/>
+         $$
+        </label>
+       </li>
+       <li class="scroll">
+        <label>
+         <input id="Real-Mexican" name="Real-Mexican" class="mycheckbox" type="checkbox"/>
+         $$$
+        </label>
+       </li>
+       <li class="scroll">
+        <label>
+         <input id="Steakhouse" name="Steakhouse" class="mycheckbox" type="checkbox"/>
+         $$$$
+        </label>
+       </li>
+      </ul>
+     </li>
+     <!-- <li class="scroll"> <label> <input id="Real-Mexican" type="checkbox" name="Real-Mexican"> $$$</label> </li> <li class="scroll"> <label> <input id="Fusion" type="checkbox" name="Fusion"> $$</label> </li> <li class="scroll"> <label> <input id="Italian" type="checkbox" name="Italian"> $$</label> </li> <li class="scroll"> <label> <input id="Steakhouse" type="checkbox" name="Steakhouse"> $$$$</label> </li> <li class="scroll"> <label> <input id="American" type="checkbox" name="American"> $</label> </li> <li class="scroll"> <label> <input id="Japanese" type="checkbox" name="Chinese"> $$</label> </li> <li class="scroll"> <label> <input id="Japanese" type="checkbox" name="Japanese"> $</label> </li> <li class="scroll"> <label> <input id="Chinese" type="checkbox" name="Chinese"> $</label> </li> -->
+    </ul>
+   </nav>
+   <!-- </div> -->
+   <div id="map">
+    <img class="img1" src="assets/image/map.jpg"/>
+    <img class="pin Real-Mexican" id="rachel" src="assets/image/pins.png"/>
+    <img class="pin American" id="lukas" src="assets/image/pins.png"/>
+    <img class="pin Fusion" id="lori" src="assets/image/pins.png"/>
+    <img class="pin Italian" id="claire" src="assets/image/pins.png"/>
+    <img class="pin Steakhouse" id="michael" src="assets/image/pins.png"/>
+    <img class="pin Japanese" id="bob" src="assets/image/pins.png"/>
+    <img class="pin Japanese" id="bill" src="assets/image/pins.png"/>
+    <img class="pin Chinese" id="art" src="assets/image/pins.png"/>
+    <img id="post" src="assets/image/post copy.png"/>
+   </div>
+  </div>
+  <div id="modal-container">
+   <div id="modal-overlay">
+   </div>
+   <div class="modal" id="modal-box">
+    <div id="Modal-Header">
+     Login
+    </div>
+    <div class="Modal-Content1">
+     <input class="USERNAME black" placeholder="Enter Username" type="text"/>
+     <input class="PASSWORD black" placeholder="Enter Password" type="text"/>
+    </div>
+    <div id="Modal-Footer3">
+     <div id="button1">
+      Welcome back!
+     </div>
+    </div>
+   </div>
+   <div class="modal" id="modal-box2">
+    <div id="Modal-Header">
+     Create User
+    </div>
+    <div class="Modal-Content2">
+     <input class="USERNAME" placeholder="Enter Username" type="text"/>
+     <input class="EMAIL" placeholder="Enter Email" type="text"/>
+     <input class="PASSWORD" placeholder="Enter Password" type="text"/>
+    </div>
+    <div id="Modal-Footer">
+     <div id="button0">
+      Create User!
+     </div>
+    </div>
+   </div>
+   <div class="modal" id="modal-box3">
+    <div id="Modal-Footer">
+     <div id="button2">
+      Login
+     </div>
+     <div id="button3">
+      Create User
+     </div>
+    </div>
+   </div>
+   <div class="modal" id="modal-box4">
+   	<div id="forpadding">
+    <div id="Modal-Header2">
+     SHARE YOUR BEST MEAL
+    </div>
+    <div class="modal-content4">
+     <input class="SHARENAME margin2" placeholder="Name of Dish" type="text"/>
+     <input class="LOCATION margin2" placeholder="Location" type="text"/>
+     <input class="PRICE margin2" placeholder="Price" type="text"/>
+     <textarea class="textboxinput"></textarea>
+    
+    <div id="Modal-Footer2">
+     <div id="button4">
+      Upload Photo
+     </div>
+     <div id="button5">
+      SHARE THE YUMINESS!
+     </div>
+    </div>
+    </div>
+   </div>
+	</div>
+
+   <div class="modal" id="modal-box5">
+   	<div id="forpadding">
+    <div id="Modal-Header2">
+     THE YUMMINESS
+    </div>
+    <div class="Modal-Content5">
+     <p class="read">
+      Name:
+      <span class="foodname">
+      </span>
+     </p>
+
+     <p class="read">
+      Location:
+      <span class="location">
+      </span>
+     </p>
+     <p class="read">
+      Price:
+      <span class="price">
+      </span>
+     </p>
+     <p class="read">
+      Story:
+      <span class="story">
+      </span>
+     </p>
+     <div class="images">
+     </div>
+    </div>
+	</div>	
+   </div>
+
+   <div class="modal" id="modal-box6">
+    <h2 class="font">WELCOME!</h2>
+    <p class="font1">This site celebrates the best meals around the world!</p>
+    <p class="font1">To get started, click  outside this box. To share your best meal (ever!), click your desired location on the map to post. To explore, filter, search, or hover over the pins.</p>
+    <p class="font1">Enjoy with great gusto!</p>
+   </div>
+
+   <div class="modal1" id="modal-box7">
+    <!-- <h2>
+     WELCOME
+    </h2> -->
+    <h1>
+     F<img src="assets/image/cupcake1.png"/><img src="assets/image/cupcake1.png"/>DIES!
+    </h1>
+    <img class="arrow" src="assets/image/arrow2.png"/>
+    <p class="click">
+     Click Me!
+    </p>
+   </div>
+   <div class="modal" id="post">
+    <p>
+     post
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

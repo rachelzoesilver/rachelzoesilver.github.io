@@ -95,7 +95,7 @@ $(document).ready(function(){
 
 	    var imgPos = $(".img1").offset();
 	    $("#post").css("top", e.pageY - imgPos.top - 86)
-	    $("#post").css("left", e.pageX - imgPos.left - 39) 
+	    $("#post").css("left", e.pageX - imgPos.left - 38) 
 	    $("#post").show();
 	    $()
 	});
@@ -190,6 +190,7 @@ $(document).ready(function(){
 		$(".arrow").hide();
 		$(".click").hide();
 	})
+
 
 	// $("#modal-box3").click(function() {
 	// 	// $("#modal-box").hide();
